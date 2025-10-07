@@ -17,11 +17,11 @@ password.addEventListener("input", () => {
         if (constraint){
             successCounter++ // count for progress bar
             constraintsElements[i].style.color = "rgb(0, 200, 0)" // checked
-            constraintsElements[i].querySelector("i").className = "fa-solid fa-check" // change icon
+            constraintsElements[i].querySelector("i").className = "bi bi-check-circle" // change icon
         }
         else{
             constraintsElements[i].style.color = "red" // not yet checked
-            constraintsElements[i].querySelector("i").className = "fa-solid fa-info" // change color
+            constraintsElements[i].querySelector("i").className = "bi bi-info-circle" // change color
         }
     })
     // update progress bar
