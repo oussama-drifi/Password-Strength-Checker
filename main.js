@@ -60,5 +60,5 @@ showHideBtn.addEventListener("click", () => {
     // change type
     password.type =  isPassword ? "text" : "password";
     // change icon
-    showHideIcon.className = isPassword ? "hide-icon fa-regular fa-eye-slash" : "show-icon fa-regular fa-eye"
+    showHideIcon.className = isPassword ? "hide-icon bi bi-eye-slash" : "show-icon bi bi-eye"
 });
